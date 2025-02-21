@@ -1,6 +1,6 @@
 {
   "name": "@ucp-npm/akoya-adapter",
-  "version": "0.0.6-alpha",
+  "version": "0.0.7-alpha",
   "description": "Akoya Adapter for the Universal Connect Widget",
   "packageManager": "npm@10.8.2",
   "main": "dist/cjs/index.js",
