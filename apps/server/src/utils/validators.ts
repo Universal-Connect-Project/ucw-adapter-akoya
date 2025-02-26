@@ -15,11 +15,9 @@ export const withValidateAggregatorInPath =
     const schema = Joi.object({
       aggregator: createAggregatorValidator(),
     });
-
     const { error } = schema.validate({
       aggregator: req.params.aggregator,
     });
-
     if (error) {
       res.status(400);
       res.send(he.encode(error.details[0].message));
